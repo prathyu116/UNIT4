@@ -6,6 +6,6 @@ const app = express();
 
 app.use(express.json());
 
-app.use("/users", usersController); // http://localhost:5000/users will go to usersController
+app.use("/users", usersController); 
 
 module.exports = app;
